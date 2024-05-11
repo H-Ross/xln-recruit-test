@@ -6,7 +6,7 @@ TriggeredBy: ● docker.socket
    Main PID: 2451 (dockerd)
       Tasks: 25
      Memory: 167.4M
-        CPU: 8.195s
+        CPU: 8.197s
      CGroup: /system.slice/docker.service
              └─2451 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
 
@@ -31,7 +31,7 @@ TriggeredBy: ● syslog.socket
    Main PID: 1025 (rsyslogd)
       Tasks: 4 (limit: 18750)
      Memory: 10.7M
-        CPU: 490ms
+        CPU: 491ms
      CGroup: /system.slice/rsyslog.service
              └─1025 /usr/sbin/rsyslogd -n -iNONE
 
@@ -41,26 +41,4 @@ May 11 11:50:12 hross-pc rsyslogd[1025]: imuxsock: Acquired UNIX socket '/run/sy
 May 11 11:50:12 hross-pc rsyslogd[1025]: rsyslogd's groupid changed to 111
 May 11 11:50:12 hross-pc rsyslogd[1025]: rsyslogd's userid changed to 104
 May 11 11:50:12 hross-pc rsyslogd[1025]: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="1025" x-info="https://www.rsyslog.com"] start
-
-● NetworkManager.service - Network Manager
-     Loaded: loaded (/lib/systemd/system/NetworkManager.service; enabled; vendor preset: enabled)
-     Active: active (running) since Sat 2024-05-11 11:50:12 CEST; 10h ago
-       Docs: man:NetworkManager(8)
-   Main PID: 1002 (NetworkManager)
-      Tasks: 3 (limit: 18750)
-     Memory: 12.2M
-        CPU: 6.408s
-     CGroup: /system.slice/NetworkManager.service
-             └─1002 /usr/sbin/NetworkManager --no-daemon
-
-May 11 17:20:24 hross-pc NetworkManager[1002]: <info>  [1715440824.3983] dhcp4 (wlp9s0): state changed new lease, address=192.168.0.32
-May 11 17:50:24 hross-pc NetworkManager[1002]: <info>  [1715442624.4144] dhcp4 (wlp9s0): state changed new lease, address=192.168.0.32
-May 11 18:20:24 hross-pc NetworkManager[1002]: <info>  [1715444424.4032] dhcp4 (wlp9s0): state changed new lease, address=192.168.0.32
-May 11 18:50:24 hross-pc NetworkManager[1002]: <info>  [1715446224.4033] dhcp4 (wlp9s0): state changed new lease, address=192.168.0.32
-May 11 19:20:24 hross-pc NetworkManager[1002]: <info>  [1715448024.4050] dhcp4 (wlp9s0): state changed new lease, address=192.168.0.32
-May 11 19:50:24 hross-pc NetworkManager[1002]: <info>  [1715449824.4029] dhcp4 (wlp9s0): state changed new lease, address=192.168.0.32
-May 11 20:20:24 hross-pc NetworkManager[1002]: <info>  [1715451624.4044] dhcp4 (wlp9s0): state changed new lease, address=192.168.0.32
-May 11 20:50:24 hross-pc NetworkManager[1002]: <info>  [1715453424.4058] dhcp4 (wlp9s0): state changed new lease, address=192.168.0.32
-May 11 21:20:24 hross-pc NetworkManager[1002]: <info>  [1715455224.4018] dhcp4 (wlp9s0): state changed new lease, address=192.168.0.32
-May 11 21:50:24 hross-pc NetworkManager[1002]: <info>  [1715457024.4053] dhcp4 (wlp9s0): state changed new lease, address=192.168.0.32
 
