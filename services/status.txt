@@ -6,7 +6,7 @@ TriggeredBy: ● docker.socket
    Main PID: 2451 (dockerd)
       Tasks: 25
      Memory: 167.4M
-        CPU: 8.267s
+        CPU: 8.288s
      CGroup: /system.slice/docker.service
              └─2451 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
 
