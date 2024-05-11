@@ -1,0 +1,48 @@
+NetworkManager.service
+● ├─dbus.socket
+● ├─system.slice
+● ├─network.target
+● └─sysinit.target
+●   ├─apparmor.service
+●   ├─blk-availability.service
+●   ├─dev-hugepages.mount
+●   ├─dev-mqueue.mount
+●   ├─keyboard-setup.service
+●   ├─kmod-static-nodes.service
+●   ├─lvm2-lvmpolld.socket
+●   ├─lvm2-monitor.service
+●   ├─plymouth-read-write.service
+●   ├─plymouth-start.service
+●   ├─proc-sys-fs-binfmt_misc.automount
+●   ├─setvtrgb.service
+●   ├─sys-fs-fuse-connections.mount
+●   ├─sys-kernel-config.mount
+●   ├─sys-kernel-debug.mount
+●   ├─sys-kernel-tracing.mount
+○   ├─systemd-ask-password-console.path
+●   ├─systemd-binfmt.service
+○   ├─systemd-boot-system-token.service
+●   ├─systemd-journal-flush.service
+●   ├─systemd-journald.service
+○   ├─systemd-machine-id-commit.service
+●   ├─systemd-modules-load.service
+○   ├─systemd-pstore.service
+●   ├─systemd-random-seed.service
+●   ├─systemd-sysctl.service
+●   ├─systemd-sysusers.service
+●   ├─systemd-timesyncd.service
+●   ├─systemd-tmpfiles-setup-dev.service
+●   ├─systemd-tmpfiles-setup.service
+●   ├─systemd-udev-trigger.service
+●   ├─systemd-udevd.service
+●   ├─systemd-update-utmp.service
+●   ├─cryptsetup.target
+●   ├─local-fs.target
+●   │ ├─-.mount
+●   │ ├─boot-efi.mount
+●   │ ├─boot.mount
+○   │ ├─systemd-fsck-root.service
+●   │ └─systemd-remount-fs.service
+●   ├─swap.target
+●   │ └─dev-disk-by\x2duuid-b74fa38b\x2d6731\x2d449d\x2d85e5\x2de776b3734ce0.swap
+●   └─veritysetup.target
