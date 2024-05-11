@@ -1,12 +1,12 @@
 ● docker.service - Docker Application Container Engine
      Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)
-     Active: active (running) since Sat 2024-05-11 11:50:20 CEST; 9h ago
+     Active: active (running) since Sat 2024-05-11 11:50:20 CEST; 10h ago
 TriggeredBy: ● docker.socket
        Docs: https://docs.docker.com
    Main PID: 2451 (dockerd)
       Tasks: 25
      Memory: 167.4M
-        CPU: 8.172s
+        CPU: 8.195s
      CGroup: /system.slice/docker.service
              └─2451 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
 
@@ -23,7 +23,7 @@ May 11 11:50:20 hross-pc dockerd[2451]: time="2024-05-11T11:50:20.851100502+02:0
 
 ● rsyslog.service - System Logging Service
      Loaded: loaded (/lib/systemd/system/rsyslog.service; enabled; vendor preset: enabled)
-     Active: active (running) since Sat 2024-05-11 11:50:12 CEST; 9h ago
+     Active: active (running) since Sat 2024-05-11 11:50:12 CEST; 10h ago
 TriggeredBy: ● syslog.socket
        Docs: man:rsyslogd(8)
              man:rsyslog.conf(5)
@@ -31,7 +31,7 @@ TriggeredBy: ● syslog.socket
    Main PID: 1025 (rsyslogd)
       Tasks: 4 (limit: 18750)
      Memory: 10.7M
-        CPU: 486ms
+        CPU: 490ms
      CGroup: /system.slice/rsyslog.service
              └─1025 /usr/sbin/rsyslogd -n -iNONE
 
@@ -44,16 +44,15 @@ May 11 11:50:12 hross-pc rsyslogd[1025]: [origin software="rsyslogd" swVersion="
 
 ● NetworkManager.service - Network Manager
      Loaded: loaded (/lib/systemd/system/NetworkManager.service; enabled; vendor preset: enabled)
-     Active: active (running) since Sat 2024-05-11 11:50:12 CEST; 9h ago
+     Active: active (running) since Sat 2024-05-11 11:50:12 CEST; 10h ago
        Docs: man:NetworkManager(8)
    Main PID: 1002 (NetworkManager)
       Tasks: 3 (limit: 18750)
      Memory: 12.2M
-        CPU: 6.391s
+        CPU: 6.408s
      CGroup: /system.slice/NetworkManager.service
              └─1002 /usr/sbin/NetworkManager --no-daemon
 
-May 11 16:50:24 hross-pc NetworkManager[1002]: <info>  [1715439024.4018] dhcp4 (wlp9s0): state changed new lease, address=192.168.0.32
 May 11 17:20:24 hross-pc NetworkManager[1002]: <info>  [1715440824.3983] dhcp4 (wlp9s0): state changed new lease, address=192.168.0.32
 May 11 17:50:24 hross-pc NetworkManager[1002]: <info>  [1715442624.4144] dhcp4 (wlp9s0): state changed new lease, address=192.168.0.32
 May 11 18:20:24 hross-pc NetworkManager[1002]: <info>  [1715444424.4032] dhcp4 (wlp9s0): state changed new lease, address=192.168.0.32
@@ -63,4 +62,5 @@ May 11 19:50:24 hross-pc NetworkManager[1002]: <info>  [1715449824.4029] dhcp4 (
 May 11 20:20:24 hross-pc NetworkManager[1002]: <info>  [1715451624.4044] dhcp4 (wlp9s0): state changed new lease, address=192.168.0.32
 May 11 20:50:24 hross-pc NetworkManager[1002]: <info>  [1715453424.4058] dhcp4 (wlp9s0): state changed new lease, address=192.168.0.32
 May 11 21:20:24 hross-pc NetworkManager[1002]: <info>  [1715455224.4018] dhcp4 (wlp9s0): state changed new lease, address=192.168.0.32
+May 11 21:50:24 hross-pc NetworkManager[1002]: <info>  [1715457024.4053] dhcp4 (wlp9s0): state changed new lease, address=192.168.0.32
 
