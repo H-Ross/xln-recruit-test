@@ -6,7 +6,7 @@ TriggeredBy: ● docker.socket
    Main PID: 2451 (dockerd)
       Tasks: 25
      Memory: 167.4M
-        CPU: 8.197s
+        CPU: 8.217s
      CGroup: /system.slice/docker.service
              └─2451 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
 
@@ -31,7 +31,7 @@ TriggeredBy: ● syslog.socket
    Main PID: 1025 (rsyslogd)
       Tasks: 4 (limit: 18750)
      Memory: 10.7M
-        CPU: 491ms
+        CPU: 492ms
      CGroup: /system.slice/rsyslog.service
              └─1025 /usr/sbin/rsyslogd -n -iNONE
 
