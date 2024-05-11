@@ -1,2 +1,2 @@
 # xln-recruit-test
-Script for XLN Audio Recruit test.
+Script for XLN Audio Recruit test!
