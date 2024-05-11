@@ -1,4 +1,3 @@
-dir_test/
 dir_test/fileset
 dir_test/systems
 dir_test/path
