@@ -1,12 +1,12 @@
 ● docker.service - Docker Application Container Engine
      Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)
-     Active: active (running) since Sun 2024-05-12 12:32:25 CEST; 34min ago
+     Active: active (running) since Sun 2024-05-12 12:32:25 CEST; 38min ago
 TriggeredBy: ● docker.socket
        Docs: https://docs.docker.com
    Main PID: 2550 (dockerd)
       Tasks: 18
      Memory: 166.8M
-        CPU: 834ms
+        CPU: 870ms
      CGroup: /system.slice/docker.service
              └─2550 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
 
@@ -20,25 +20,4 @@ May 12 12:32:24 hross-pc dockerd[2550]: time="2024-05-12T12:32:24.880859043+02:0
 May 12 12:32:24 hross-pc dockerd[2550]: time="2024-05-12T12:32:24.881467210+02:00" level=info msg="Daemon has completed initialization"
 May 12 12:32:25 hross-pc systemd[1]: Started Docker Application Container Engine.
 May 12 12:32:25 hross-pc dockerd[2550]: time="2024-05-12T12:32:25.092825703+02:00" level=info msg="API listen on /run/docker.sock"
-
-● rsyslog.service - System Logging Service
-     Loaded: loaded (/lib/systemd/system/rsyslog.service; enabled; vendor preset: enabled)
-     Active: active (running) since Sun 2024-05-12 12:32:17 CEST; 35min ago
-TriggeredBy: ● syslog.socket
-       Docs: man:rsyslogd(8)
-             man:rsyslog.conf(5)
-             https://www.rsyslog.com/doc/
-   Main PID: 1094 (rsyslogd)
-      Tasks: 4 (limit: 18750)
-     Memory: 4.5M
-        CPU: 137ms
-     CGroup: /system.slice/rsyslog.service
-             └─1094 /usr/sbin/rsyslogd -n -iNONE
-
-May 12 12:32:17 hross-pc systemd[1]: Starting System Logging Service...
-May 12 12:32:17 hross-pc systemd[1]: Started System Logging Service.
-May 12 12:32:17 hross-pc rsyslogd[1094]: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2112.0]
-May 12 12:32:17 hross-pc rsyslogd[1094]: rsyslogd's groupid changed to 111
-May 12 12:32:17 hross-pc rsyslogd[1094]: rsyslogd's userid changed to 104
-May 12 12:32:17 hross-pc rsyslogd[1094]: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="1094" x-info="https://www.rsyslog.com"] start
 
