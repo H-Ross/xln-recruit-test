@@ -1,0 +1,14 @@
+File, Size
+data_sorted.txt, 4.0K
+data_summed_and_sorted.txt, 4.0K
+data.txt, 4.0K
+dependencies, 12K
+dir_test, 1.4M
+list_directories.txt, 4.0K
+list_markdown.txt, 4.0K
+list_overrides.txt, 4.0K
+services, 8.0K
+system_cpu.txt, 4.0K
+system_ipv4.txt, 4.0K
+system_processes.txt, 16K
+system_ram.txt, 4.0K
